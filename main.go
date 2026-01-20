@@ -66,7 +66,8 @@ func main() {
 					taches = slices.Delete(taches, i, i+1)
 				}
 			}
-
+		} else {
+			fmt.Println("\nCommande non reconnue")
 		}
 
 	}
